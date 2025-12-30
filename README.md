@@ -1,0 +1,5 @@
+- Weather App
+- Simple weather forecast app built with vanilla JavaScript, HTML, and CSS.
+- Uses the Visual Crossing Weather API to fetch current weather and a 5-day forecast.
+- Users can search weather by city name and view temperature, conditions, and icons.
+- Frontend-only project. Open index.html in a browser to run.
