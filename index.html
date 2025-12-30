@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <form id="cityForm">
+      <label for="weather-city">City:</label>
+      <input type="text" id="weather-city" />
+      <button type="submit" id="search-btn">Search</button>
+    </form>
+
+    <div id="forecast-wrapper" style="display: none">
+      <div id="forecast">
+        <div id="today" class="weather-today"></div>
+        <div id="future" class="weather-future"></div>
+      </div>
+    </div>
+  </body>
+</html>
